@@ -112,7 +112,7 @@
             Formulario para solicitar el bin de Nebula Mini en el marco de la compra.
         </div>
 
-        <form name="solicitud-nebula" method="POST" data-netlify="true">
+        <form action="https://formsubmit.co/amoroso_815@hotmail.com" method="POST">
             
             <div class="form-group">
                 <label for="fecha">Fecha de compra<span class="required">*</span></label>
@@ -140,6 +140,9 @@
                 <span class="subtext">MAC address de la placa ESP32 - Verificar bien este dato ya que de necesitar una recompilación del software, se aplica un cargo de $25 USD</span>
                 <input type="text" id="mac" name="mac_address" placeholder="AA:BB:CC:DD:EE:FF" maxlength="17" required>
             </div>
+
+            <input type="hidden" name="_subject" value="Nueva Solicitud de Firmware - Nebula Mini">
+            <input type="hidden" name="_captcha" value="false">
 
             <div class="form-footer">
                 <button type="reset" class="btn-clear">
